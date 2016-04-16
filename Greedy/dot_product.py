@@ -1,7 +1,6 @@
 # Uses python2
 
 def min_dot_product(a, b):
-    #write your code here
     res = 0
     while len(a) > 0:
         res += max(a) * min(b)
